@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.scss">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="row">
+            <div class="header">
+                <div class="nav-bar">
+                    <i class="fa-solid fa-bars" onclick="openNav()"></i>
+                    <div id="mySidenav" class="sidenav">
+                        <span class="closebtn" onclick="closeNav()">&times;</span>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Service</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <a class="header__logo-link">
+                    <img src="./assets/images/logo.png" alt="" class="header__logo">
+                </a>
+
+                <ul class="nav hide-on-tablet hide-on-mobile hide-on-tablet">
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Service</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="#" class="header__nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="header__search-wrap hide-on-mobile">
+                    <input type="text" class="header__search" placeholder="Search">
+                    <div class="header__search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content">
+            <div class="col c-12 m-6 l-7">
+                <div class="section__content-left">
+                    <div class="height hide-on-mobile"></div>
+                    <h2 class="text-left section__left-title">First I want to be a veterinarina</h2>
+                    <p class="section__left-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        natus dolore placeat sit at qui.
+                    </p>
+                    <div class="section__left-more">
+                        <a href="#" class="contact">Contact us</a>
+                        <a href="#" class="service">Or Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-5">
+                <div class="section__content-right" style="text-align: right;">
+                    <img src="./assets/images/image_1.png" alt="" class="section__fisrt-image">
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content">
+            <div class="col c-12 m-6 l-6">
+                <div class="section__content-left">
+                    <div class="height"></div>
+                    <h2 class="text-left section__left-title">As a veterinarian lover of animals</h2>
+                    <p class="section__left-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        natus dolore placeat sit at qui.
+                    </p>
+                    <div class="section__left-more">
+                        <a href="#" class="service">Or Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-6">
+                <div class="section__content-right position-on-mobile" style="top: 0; left: 10%;">
+                    <img src="./assets/images/image_2.png" alt="" class="section__second-image">
+                    <img src="./assets/images/blur.png" alt="" class="section__image-blur">
+                    <img src="./assets/images/video_icon_1.png" alt="" class="video__icon">
+                    <img src="./assets/images/video_icon_2.png" alt="" class="video__icon-play">
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content animal__care mt-300-mobile">
+            <div class="animal__care-title">Title Here</div>
+            <p class="animal__care-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Optio, minus
+                voluptatem? Neque.
+            </p>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/image_3.png" alt="" class="animal__care-image">
+                    <div class="animal__treatment-name">Veterinarian</div>
+                    <p class="animal__treatment-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum
+                        libero officia dignissimos!
+                    </p>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/image_4.png" alt="" class="animal__care-image">
+                    <div class="animal__treatment-name">Vaccination Care</div>
+                    <p class="animal__treatment-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum
+                        libero officia dignissimos!
+                    </p>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/image_5.png" alt="" class="animal__care-image">
+                    <div class="animal__treatment-name">Dental Care</div>
+                    <p class="animal__treatment-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum
+                        libero officia dignissimos!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content">
+            <div class="col c-12 m-6 l-6">
+                <div class="section__content-right">
+                    <img src="./assets/images/image_6.png" alt="" class="section__second-image">
+                    <img src="./assets/images/blur.png" alt="" class="section__image-blur">
+                    <img src="./assets/images/video_icon_1.png" alt="" class="video__icon">
+                    <img src="./assets/images/video_icon_3.png" alt="" class="video__icon-play">
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-6">
+                <div class="section__content-left mt-300-mobile text-center-mobile" style="text-align: right">
+                    <div class="height"></div>
+                    <h2 class="text-left section__left-title">As a veterinarian lover of animals</h2>
+                    <p class="section__left-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                        natus dolore placeat sit at qui.
+                    </p>
+                    <div class="section__left-more">
+                        <a href="#" class="service">Or Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content animal__care">
+            <div class="animal__care-title">Title Here</div>
+            <p class="animal__care-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Optio, minus
+                voluptatem? Neque.
+            </p>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/image_7.png" alt="" class="animal__care-image" style="width: 100%;">
+                    <div class="price">
+                        <span class="selling_price">$50</span>
+                        <span class="discount_price">$30</span>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="contact mb-on-tablet" style="width: 150px; border-radius: 24px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/image_8.png" alt="" class="animal__care-image" style="width: 100%;">
+                    <div class="price">
+                        <span class="selling_price">$40</span>
+                        <span class="discount_price">$25</span>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="contact mb-on-tablet" style="width: 150px; border-radius: 24px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/image_9.png" alt="" class="animal__care-image" style="width: 100%;">
+                    <div class="price">
+                        <span class="selling_price">$45</span>
+                        <span class="discount_price">$20</span>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="contact mb-on-tablet" style="width: 150px; border-radius: 24px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content animal__care">
+            <div class="animal__care-title" style="color: #313243">The Vetcar Team</div>
+            <p class="animal__care-content" style="color: #313243">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. <br /> Optio, minus voluptatem? Neque.
+            </p>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/doctor_1.png" alt="" class="animal__care-image">
+                    <div class="animal__treatment-name" style="color: #313243">Jennifer Mullen</div>
+                    <p class="animal__treatment-desc" style="color: #313243; text-transform: uppercase;">Veterinary</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-comment-sms"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/doctor_2.png" alt="" class="animal__care-image">
+                    <div class="animal__treatment-name" style="color: #313243"> Sheeren Collins</div>
+                    <p class="animal__treatment-desc" style="color: #313243; text-transform: uppercase;">Administrator
+                    </p>
+                    <div class="socials">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-comment-sms"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/doctor_3.png" alt="" class="animal__care-image">
+                    <div class="animal__treatment-name" style="color: #313243">Jennifer Mullen</div>
+                    <p class="animal__treatment-desc" style="color: #313243; text-transform: uppercase;">Veterinary</p>
+                    <div class="socials">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-comment-sms"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content animal__care section--blur pd-on-mobile">
+            <div class="section__content-image height-on-mobile"></div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item hide-on-mobile">
+                    <i class="fa-solid fa-heart-circle-plus"></i>
+                    <div class="price">
+                        <span class="discount_price">+34793</span>
+                    </div>
+                    <div class="section__content-title">Happy Clients</div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item hide-on-mobile" style="left: 40%">
+                    <i class="fa-solid fa-heart-circle-plus"></i>
+                    <div class="price">
+                        <span class="discount_price">+45382</span>
+                    </div>
+                    <div class="section__content-title">Department</div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item hide-on-mobile" style="left: 70%">
+                    <i class="fa-solid fa-heart-circle-plus"></i>
+                    <div class="price">
+                        <span class="discount_price">+54762</span>
+                    </div>
+                    <div class="section__content-title">Vaccinations</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row section__content animal__care recent__posts">
+            <div class="animal__care-title" style="color: #313243;">Recent Posts
+            </div>
+            <p class="animal__care-content" style="color: #313243">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. <br /> Optio, minus voluptatem? Neque.
+            </p>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/doctor_4.png" alt="" class="animal__care-image">
+                    <div class="treatment-wrap">
+                        <div class="animal__treatment-name" style="color: #313243;">As a
+                            veterinarian and lover of animals
+                        </div>
+                        <p class="treatment__date">FEBRUARY 9, 2022</p>
+                        <p class="animal__treatment-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis dignissimos
+                            blanditiis sed quibusdam laboriosam autem!
+                        </p>
+                        <a href="#" class="post__detail-link">Read More+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/doctor_5.png" alt="" class="animal__care-image">
+                    <div class="treatment-wrap">
+                        <div class="animal__treatment-name" style="color: #313243">As a veterinarian and lover of
+                            animals
+                        </div>
+                        <p class="treatment__date">FEBRUARY 10, 2022</p>
+                        <p class="animal__treatment-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis dignissimos
+                            blanditiis sed quibusdam laboriosam autem!
+                        </p>
+                        <a href="#" class="post__detail-link">Read More+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col c-12 m-6 l-4">
+                <div class="animal__care-item">
+                    <img src="./assets/images/doctor_6.png" alt="" class="animal__care-image">
+                    <div class="treatment-wrap">
+                        <div class="animal__treatment-name" style="color: #313243">As a veterinarian and lover of
+                            animals
+                        </div>
+                        <p class="treatment__date">FEBRUARY 11, 2022</p>
+                        <p class="animal__treatment-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis dignissimos
+                            blanditiis sed quibusdam laboriosam autem!
+                        </p>
+                        <a href="#" class="post__detail-link">Read More+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row section__content section__footer">
+                <div class="col c-12 m-6 l-3">
+                    <div class="footer_item">
+                        <h3>About</h3>
+                        <ul class="footer__list-list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">History</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Our Team</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Brand GuideLines</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Team & Condition </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col c-12 m-6 l-3">
+                    <div class="footer_item">
+                        <h3>Services</h3>
+                        <ul class="footer__list-list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">History</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Our Team</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Brand GuideLines</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Team & Condition</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__item-link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col c-12 m-6 l-6">
+                    <div class="footer_item " style="text-align:right;">
+                        <h3>Title Here</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="header__search-wrap justify-content-end center-on-mobile">
+                            <input type="text" class="header__search">
+                            <div class="header__search-icon">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </div>
+                        </div>
+                        <div class="socials justify-content-end center-on-mobile">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-comment-sms"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>

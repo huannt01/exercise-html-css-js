@@ -1,0 +1,190 @@
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    .header__logo {
+        width: 250px !important;
+    }
+
+    .section__content:nth-child(even) {
+        background-color: #fcc302;
+        padding         : 70px 20px;
+    }
+
+    .section__content:nth-child(odd) {
+        background-color: #fff;
+        padding         : 70px 20px 0;
+        margin-bottom   : 40px;
+    }
+
+    .section__left-title {
+        font-size: 3.6rem;
+    }
+
+    .section__left-desc {
+        font-size: 1.6rem;
+    }
+
+    .section__left-more {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    img.section__fisrt-image {
+        width: 100%;
+    }
+
+    .height {
+        display: none;
+    }
+
+    .mt-300-mobile {
+        margin-top: 400px;
+    }
+
+    .section__image-blur,
+    .section__second-image {
+        width: 100%;
+    }
+
+    .video__icon {
+        transform: translate(-50%, 150%);
+    }
+
+    .video__icon-play {
+        transform: translate(-40%, 500%);
+    }
+
+    .section__content {
+        margin-bottom: 20px;
+    }
+
+    .animal__care-item {
+        margin       : 0;
+        margin-bottom: 40px;
+    }
+
+    p.animal__treatment-desc {
+        display: none;
+    }
+
+    .animal__treatment-name {
+        margin: 12px 0;
+    }
+
+    .height-on-mobile {
+        height: 160px;
+    }
+
+    .pd-on-mobile {
+        padding: 0 !important;
+    }
+
+    .section__content.section__footer {
+        background-color: #343434;
+    }
+
+    .footer_item {
+        padding   : 16px 16px;
+        text-align: center !important;
+    }
+
+    .footer_item p {
+        text-align: center;
+    }
+
+    .center-on-mobile {
+        justify-content: center !important;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .position-on-mobile {
+        top : 0;
+        left: 0 !important;
+    }
+
+    .text-center-mobile {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .section__content:nth-child(even) {
+        background-color: #fcc302;
+        padding         : 70px 40px;
+    }
+
+    .section__content:nth-child(odd) {
+        background-color: #fff;
+        padding         : 70px 40px 0;
+        margin-bottom   : 40px;
+    }
+
+    .footer_item {
+        padding   : 16px 16px;
+        text-align: center !important;
+    }
+
+    .footer_item p {
+        text-align: center;
+    }
+
+    .section__content.section__footer {
+        background-color: #343434;
+    }
+
+    .position-on-mobile {
+        top : 0;
+        left: 0 !important;
+    }
+
+    .center-on-mobile {
+        justify-content: center !important;
+    }
+
+    .height {
+        display: none;
+    }
+
+    .section__image-blur,
+    .section__second-image {
+        width: 100%;
+    }
+
+    .animal__care-item {
+        margin: 0;
+    }
+
+    img.animal__care-image {
+        width: 100%;
+    }
+
+    p.animal__treatment-desc {
+        margin-bottom: 20px;
+    }
+
+    .selling_price::after {
+        left: 130px;
+    }
+
+    .mb-on-tablet {
+        margin-bottom: 36px;
+    }
+}
