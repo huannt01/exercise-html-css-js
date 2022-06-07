@@ -187,4 +187,8 @@
     .mb-on-tablet {
         margin-bottom: 36px;
     }
+
+    img.section__fisrt-image {
+        width: 100%;
+    }
 }
